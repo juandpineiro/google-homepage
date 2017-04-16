@@ -1,4 +1,5 @@
 body {
+	background: #fff;
 	font-family: arial, sans-serif;
 	font-size: small;
 	color: #222;
@@ -46,7 +47,7 @@ header a {
 }
 
 #image {
-	text-align: -webkit-center;
+	text-align: center;
 	margin-top: 79px;
 }
 
@@ -63,6 +64,7 @@ main {
 
 #searchForm {
 	text-align: -webkit-center;
+	text-align: -moz-center;
 }
 
 #container {
@@ -76,8 +78,7 @@ main {
 	background-image: url('https://infogalactic.com/w/images/2/22/Google_microphone_logo.png');
 	background-size: 14px;
 	background-repeat: no-repeat;
-	background-position: 550px;
-	-webkit-appearance: textfield;	
+	background-position: 550px;	
 }
 
 #searchbox {
@@ -127,7 +128,7 @@ main {
 	color: #222;
 	border: 1px solid #c6c6c6;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
 }
 
 footer {
