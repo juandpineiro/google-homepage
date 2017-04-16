@@ -23,6 +23,10 @@ header a {
 	text-decoration: none;
 }
 
+.headerlinks:hover {
+	text-decoration: underline;
+}
+
 #gapps {
 	vertical-align: middle;
 	width: 30px;
